@@ -1,0 +1,54 @@
+To Do:
+- Define things that are player tiles vs. map tiles, player tiles are just for keeping track of the player's tiles, and nothing else, where map tiles are every tiles/world tiles
+- Player tiles shouldn't be removed/added when removing/adding tiles to the world, they are only an index
+- Make map generate on client side from server (same tiles) [ ]
+- Make gui for tile selection (building, attacking) [ ]
+- Make gui for building [ ]
+- Make all building classes [ ]
+- Create unit classes and create fighting [ ]
+- Make tower functions [ ]
+
+Expansion:
+- Real Time Strategy
+- Medieval
+- Tiles
+
+Objective:
+- Take over territory to gain resources and land
+- Use resources to build structures on land
+- Conquer the other players
+
+Tiles:
+- Each tile is a certain biome that provides different bonuses and tax amounts
+    - Plain, food production bonus and low tax
+    - Forest, wood production bonus and low tax
+    - Hill, medium defense boost, medium attack boost, medium tax
+    - Desert, no tax, no bonus, just land
+
+Structures:
+- Castle, position of power of each player
+- Farm, produces food
+- Lumber Mill, produces wood
+- Barrack, trains troops using resources
+- Tower, protects tiles in its range
+- NPC Village, low defense boost, medium tax, resource rewards upon invading, medium defense
+- NPC City, high defense boost, high tax, a lot of resource rewards upon invading, high defense
+- NPC Tower, high defense to attack, no tax, no rewards, free tower
+
+Troops:
+- Move troops tile to tile
+- If troops bump into enemies or are commanded to attack other tiles, attack
+- Troop quantity and type affect battle
+    - Archers
+    - Cavalry
+    - Warriors
+    - Archers > Cavalry > Warriors > Archers
+- Troops can be moved into structures
+    - Archers into towers for increase in defense
+    - Cavalry into farms for increase in food production
+    - Warriors into lumber mills for increase in wood production
+- Troops cost food, wood, and gold (gold is accumulated through tax of each owned tile)
+
+Notes:
+- Gold should be very desired in order for players to want to get more land
+    - Research/Upgrades? <- YES DEFINITELY SHOULD HAVE RESEARCH AND BUILDING UPGRADES
